@@ -17,8 +17,8 @@
   <rect width="800" height="800" rx="176" fill="url(#bg)"/>
   <circle cx="400" cy="380" r="330" fill="url(#glow)"/>
   <circle cx="400" cy="400" r="252" fill="none" stroke="url(#accent)" stroke-width="6" opacity="0.32"/>
-  <text x="380" y="550" text-anchor="middle" font-family="Liberation Sans, Arial, sans-serif" font-size="470" font-weight="bold" fill="#FFFFFF">C</text>
-  <path d="M 438 300 L 438 456 L 566 378 Z" fill="url(#accent)"/>
+  <text x="380" y="550" text-anchor="middle" font-family="Liberation Sans, Arial, sans-serif" font-size="470" font-weight="bold" fill="#FFFFFF">S</text>
+  <path d="M 448 318 L 448 438 L 556 378 Z" fill="url(#accent)"/>
   <path d="M 636 168 L 652 210 L 694 226 L 652 242 L 636 284 L 620 242 L 578 226 L 620 210 Z" fill="#22D3EE" opacity="0.9"/>
   <rect x="176" y="646" width="122" height="10" rx="5" fill="url(#accent)"/>
 </svg>
