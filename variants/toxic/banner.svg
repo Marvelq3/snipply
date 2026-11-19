@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2560" height="1440" viewBox="0 0 2560 1440">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#092616"/>
+      <stop offset="50%" stop-color="#07140D"/>
+      <stop offset="100%" stop-color="#030806"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#B6FF3D"/>
+      <stop offset="100%" stop-color="#00E5A0"/>
+    </linearGradient>
+    <linearGradient id="violet" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#00E5A0" stop-opacity="0.75"/>
+      <stop offset="100%" stop-color="#00E5A0" stop-opacity="0.05"/>
+    </linearGradient>
+    <radialGradient id="glowA" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#00E5A0" stop-opacity="0.42"/>
+      <stop offset="100%" stop-color="#00E5A0" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#B6FF3D" stop-opacity="0.28"/>
+      <stop offset="100%" stop-color="#B6FF3D" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="64" height="64" patternUnits="userSpaceOnUse">
+      <path d="M 64 0 L 0 0 0 64" fill="none" stroke="#8BC7A3" stroke-width="1" opacity="0.16"/>
+    </pattern>
+  </defs>
+
+  <rect width="2560" height="1440" fill="url(#bg)"/>
+  <rect width="2560" height="1440" fill="url(#grid)"/>
+  <circle cx="1980" cy="330" r="640" fill="url(#glowA)"/>
+  <circle cx="2400" cy="1180" r="620" fill="url(#glowB)"/>
+
+  <g transform="translate(560 545) scale(0.28)">
+    <circle cx="400" cy="380" r="330" fill="url(#glowA)"/>
+    <circle cx="400" cy="400" r="252" fill="none" stroke="url(#accent)" stroke-width="16" opacity="0.32"/>
+    <text x="380" y="550" text-anchor="middle" font-family="Liberation Sans, Arial, sans-serif" font-size="470" font-weight="bold" fill="#FFFFFF">S</text>
+    <path d="M 448 318 L 448 438 L 556 378 Z" fill="url(#accent)"/>
+  </g>
+
+  <text x="850" y="700" font-family="Liberation Sans, Arial, sans-serif" font-size="132" font-weight="bold" letter-spacing="4" fill="#FFFFFF">SNIPPLY</text>
+  <text x="856" y="776" font-family="Liberation Sans, Arial, sans-serif" font-size="36" font-weight="bold" letter-spacing="6" fill="#B6FF3D">DAILY CLIPS. ZERO FILLER.</text>
+
+  <g transform="rotate(-12 2180 680)">
+    <rect x="1960" y="500" width="420" height="250" rx="28" fill="url(#violet)" stroke="#00E5A0" stroke-width="3"/>
+  </g>
+  <g transform="rotate(9 2300 760)">
+    <rect x="2090" y="630" width="420" height="250" rx="28" fill="#0E1630" stroke="#B6FF3D" stroke-width="3" opacity="0.85"/>
+  </g>
+  <circle cx="2210" cy="700" r="168" fill="url(#accent)"/>
+  <path d="M 2170 632 L 2170 768 L 2292 700 Z" fill="#FFFFFF"/>
+</svg>
